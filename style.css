@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+html{
+    height: 100vh;
+    font-size: 14px;
+}
+
+body{
+    background-color: #282828;
+    height: 100%;
+}
+
+.container{
+    height: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.degrade{
+    background: linear-gradient(to right, #01aefe, #892af5);
+}
+
+/* ESTILO DO HEADER */
+header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header img{
+    max-width: 120px;
+    margin-bottom: 20px;
+}
+
+header h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #5e5e5e;
+    font-weight: 300;
+}
+
+/* ESTILO DOS BOTÕES */
+
+section.botoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+a.link button{
+   width: 100%;
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   border: none;
+   border-radius: 30px;
+   font-size: 1.2em;
+   cursor: pointer;
+   color: #fff;
+   transition: .2s;
+}
+
+a.link i{
+    font-size: 1.5em;
+}
+
+a.link button:hover, footer a.btn-footre:hover{
+    transform: scale(1.05);
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+
+}
+
+footer a.btn-footre{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 2em;
+    line-height: 60px; /* alinha icon ao meio */
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: .2s;
+}
